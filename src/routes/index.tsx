@@ -306,9 +306,13 @@ function Index() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2.5 mb-4">
-                <span className="size-9 rounded-xl bg-primary text-primary-foreground grid place-items-center font-bold">
-                  B
-                </span>
+                <img
+                  src={logo}
+                  alt="Agropet Bonini"
+                  width={40}
+                  height={40}
+                  className="size-10 rounded-full object-contain"
+                />
                 <span className="font-bold tracking-tight text-base">Agropet Bonini</span>
               </div>
               <p className="text-sm text-muted-foreground max-w-xs">
