@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import heroProducts from "@/assets/hero-products.jpg";
 import deliveryVan from "@/assets/delivery-van.jpg";
+import logo from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -50,9 +51,13 @@ function Index() {
       <nav className="sticky top-0 z-40 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="max-w-7xl mx-auto px-5 md:px-6 h-16 md:h-18 flex items-center justify-between">
           <a href="#top" className="flex items-center gap-2.5">
-            <span className="size-9 rounded-xl bg-primary text-primary-foreground grid place-items-center font-bold">
-              B
-            </span>
+            <img
+              src={logo}
+              alt="Agropet Bonini"
+              width={40}
+              height={40}
+              className="size-10 rounded-full object-contain"
+            />
             <span className="flex flex-col leading-none">
               <span className="font-bold tracking-tight text-base">Agropet Bonini</span>
               <span className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground mt-0.5">
@@ -301,9 +306,13 @@ function Index() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2.5 mb-4">
-                <span className="size-9 rounded-xl bg-primary text-primary-foreground grid place-items-center font-bold">
-                  B
-                </span>
+                <img
+                  src={logo}
+                  alt="Agropet Bonini"
+                  width={40}
+                  height={40}
+                  className="size-10 rounded-full object-contain"
+                />
                 <span className="font-bold tracking-tight text-base">Agropet Bonini</span>
               </div>
               <p className="text-sm text-muted-foreground max-w-xs">
