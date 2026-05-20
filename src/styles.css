@@ -51,7 +51,7 @@
   --foreground: oklch(0.22 0.03 160);           /* deep green-ink */
   --surface: oklch(0.975 0.005 120);            /* warm light bg */
 
-  --primary: oklch(0.32 0.05 160);              /* deep forest green */
+  --primary: oklch(0.5824 0.2387 27.34);        /* #fe0002 */
   --primary-foreground: oklch(0.985 0 0);
 
   --secondary: oklch(0.96 0.01 120);            /* light neutral */
