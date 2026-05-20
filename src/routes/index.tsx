@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import heroProducts from "@/assets/hero-products.jpg";
 import deliveryVan from "@/assets/delivery-van.jpg";
+import logo from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
   component: Index,
