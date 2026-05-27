@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import {
   Scissors,
-  Wheat,
-  Sprout,
+  Bone,
+  Heart,
   ShoppingBag,
   Truck,
   Dog,
@@ -25,9 +25,9 @@ const WHATSAPP_URL =
 
 const services = [
   { Icon: Scissors, title: "Banho & Tosa", desc: "Estética profissional com produtos premium e equipe especializada." },
-  { Icon: Wheat, title: "Casa de Rações", desc: "Marcas premium para todas as fases — do filhote ao sênior." },
-  { Icon: Sprout, title: "Agropecuária", desc: "Medicamentos, ferramentas, sementes e insumos para o campo." },
-  { Icon: ShoppingBag, title: "Pet Shop", desc: "Brinquedos, acessórios, camas e tudo para o conforto do seu pet." },
+  { Icon: Bone, title: "Rações Premium", desc: "Marcas premium para todas as fases — do filhote ao sênior." },
+  { Icon: Heart, title: "Cuidado & Bem-estar", desc: "Acessórios, higiene e tudo para a saúde do seu pet." },
+  { Icon: ShoppingBag, title: "Pet Shop", desc: "Brinquedos, camas, coleiras e tudo para o conforto do seu pet." },
   { Icon: Truck, title: "Delivery", desc: "Ração e produtos entregues em toda Monte Mor no mesmo dia." },
   { Icon: Dog, title: "Táxi Dog", desc: "Buscamos e levamos seu pet com segurança e pontualidade." },
 ];
@@ -97,7 +97,7 @@ function Index() {
               <span className="text-[color:var(--cta)]">você ama.</span>
             </h1>
             <p className="mt-6 max-w-[48ch] text-base md:text-lg text-muted-foreground text-pretty">
-              Pet shop, rações premium, banho & tosa, agropecuária, delivery e
+              Pet shop, rações premium, banho & tosa, delivery e
               táxi dog — tudo em um só lugar, com o atendimento de quem é da cidade.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -162,7 +162,7 @@ function Index() {
                 Soluções integradas
               </div>
               <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight text-balance">
-                Tudo o que seu pet e sua propriedade precisam.
+                Tudo o que seu pet precisa, com carinho.
               </h2>
             </div>
             <p className="text-muted-foreground max-w-sm">
@@ -316,7 +316,7 @@ function Index() {
                 <span className="font-bold tracking-tight text-base">Agropet Bonini</span>
               </div>
               <p className="text-sm text-muted-foreground max-w-xs">
-                Pet shop, rações, agropecuária e serviços em Monte Mor / SP.
+                Pet shop, rações e serviços de banho & tosa em Monte Mor / SP.
                 Sua casa de confiança.
               </p>
             </div>
