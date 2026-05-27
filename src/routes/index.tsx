@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
 });
 
 const WHATSAPP_URL =
-  "https://wa.me/5519000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Agropet%20Bonini.";
+  "https://wa.me/5519000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Pet%20Shop%20Monte%20Mor.";
 
 const services = [
   { Icon: Scissors, title: "Banho & Tosa", desc: "Estética profissional com produtos premium e equipe especializada." },
@@ -53,13 +53,13 @@ function Index() {
           <a href="#top" className="flex items-center gap-2.5">
             <img
               src={logo}
-              alt="Agropet Bonini"
+              alt="Pet Shop Monte Mor"
               width={40}
               height={40}
               className="size-10 rounded-full object-contain"
             />
             <span className="flex flex-col leading-none">
-              <span className="font-bold tracking-tight text-base">Agropet Bonini</span>
+              <span className="font-bold tracking-tight text-base">Pet Shop Monte Mor</span>
               <span className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground mt-0.5">
                 Monte Mor · SP
               </span>
@@ -134,7 +134,7 @@ function Index() {
             <div className="relative w-full aspect-[4/5] rounded-3xl overflow-hidden bg-secondary shadow-[var(--shadow-soft)]">
               <img
                 src={heroProducts}
-                alt="Pet feliz em loja moderna da Agropet Bonini"
+                alt="Pet feliz em loja moderna da Pet Shop Monte Mor"
                 width={896}
                 height={1120}
                 className="w-full h-full object-cover"
@@ -201,7 +201,7 @@ function Index() {
             <div className="w-full aspect-[5/4] rounded-3xl overflow-hidden bg-secondary shadow-[var(--shadow-soft)]">
               <img
                 src={deliveryVan}
-                alt="Atendimento próximo e cuidadoso na Agropet Bonini"
+                alt="Atendimento próximo e cuidadoso na Pet Shop Monte Mor"
                 width={1280}
                 height={960}
                 loading="lazy"
@@ -308,12 +308,12 @@ function Index() {
               <div className="flex items-center gap-2.5 mb-4">
                 <img
                   src={logo}
-                  alt="Agropet Bonini"
+                  alt="Pet Shop Monte Mor"
                   width={40}
                   height={40}
                   className="size-10 rounded-full object-contain"
                 />
-                <span className="font-bold tracking-tight text-base">Agropet Bonini</span>
+                <span className="font-bold tracking-tight text-base">Pet Shop Monte Mor</span>
               </div>
               <p className="text-sm text-muted-foreground max-w-xs">
                 Pet shop, rações e serviços de banho & tosa em Monte Mor / SP.
@@ -341,7 +341,7 @@ function Index() {
           </div>
           <div className="border-t border-border pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="text-xs text-muted-foreground">
-              © {new Date().getFullYear()} Agropet Bonini. Todos os direitos reservados.
+              © {new Date().getFullYear()} Pet Shop Monte Mor. Todos os direitos reservados.
             </div>
             <div className="flex gap-6 text-xs text-muted-foreground">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
